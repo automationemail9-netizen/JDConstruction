@@ -3,25 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>JD Construction – Project Gallery</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Gallery</h1>
+    <div class="logo">JD Construction</div>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 
-<section class="gallery">
-    <img src="img/project1.jpg" alt="Project 1">
-    <img src="img/project2.jpg" alt="Project 2">
-    <img src="img/project3.jpg" alt="Project 3">
-</section>
+<main class="content wide">
+    <section>
+        <h1>Project Gallery</h1>
+        <p>
+            Each gallery entry represents a full project. Photos are grouped by job so
+            you can see the transformation from the original space to the finished result.
+        </p>
+        <p>
+            New projects will be added over time—bathrooms, kitchens, garden spaces, and
+            full refurbishments.
+        </p>
+    </section>
+
+    <section class="gallery-grid">
+        <!-- Example project blocks – replace images and text as you add real projects -->
+        <article class="project">
+            <h2>Modern Bathroom Refurbishment</h2>
+            <div class="project-images">
+                <img src="img/bathroom-before.jpg" alt="Bathroom before refurbishment">
+                <img src="img/bathroom-after.jpg" alt="Bathroom after refurbishment">
+            </div>
+            <p>
+                Full strip‑out, new tiling, walk‑in shower, updated plumbing, and modern
+                fixtures. All surfaces prepared and finished for long‑term durability.
+            </p>
+        </article>
+
+        <article class="project">
+            <h2>Kitchen Upgrade with New Tiling</h2>
+            <div class="project-images">
+                <img src="img/kitchen-before.jpg" alt="Kitchen before upgrade">
+                <img src="img/kitchen-after.jpg" alt="Kitchen after upgrade">
+            </div>
+            <p>
+                New units, worktops, splashback tiling, and flooring. Careful cutting
+                around sockets and appliances for a clean, professional finish.
+            </p>
+        </article>
+
+        <article class="project">
+            <h2>Garden Patio & Seating Area</h2>
+            <div class="project-images">
+                <img src="img/garden-before.jpg" alt="Garden before patio installation">
+                <img src="img/garden-after.jpg" alt="Garden after patio installation">
+            </div>
+            <p>
+                Outdoor tiling, levelled ground, and a simple seating area built to
+                withstand weather and regular use.
+            </p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; JD Construction – Jarek Datta</p>
+</footer>
 
 </body>
 </html>
