@@ -182,21 +182,34 @@ footer {
     color: #555;
 }
 
-/* Mobile Navbar Fix */
-@media (max-width: 600px) {
+/* Mobile Navbar Fix — JD Construction on top, links on one line */
+@media (max-width: 700px) {
+
     header {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         padding: 20px 10px;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+        width: 100%;
     }
 
     nav {
-        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
     }
 
     nav a {
-        display: block;
-        margin: 8px 0;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin: 0;
+        padding: 6px 0;
+        display: inline-block;
     }
 }
