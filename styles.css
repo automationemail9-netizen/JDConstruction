@@ -181,3 +181,22 @@ footer {
     font-size: 0.9rem;
     color: #555;
 }
+
+/* Mobile Navbar Fix */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+        font-size: 1.1rem;
+    }
+}
